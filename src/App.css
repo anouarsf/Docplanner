@@ -1,0 +1,329 @@
+.App{
+margin: 0px;}
+/*---------------------------------Navbar------------------------------------------*/
+.Menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);  
+  position: fixed;
+  top: 0px;
+  margin-left: 170px;
+}
+
+.Dropdown{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-left: 510px;
+
+}
+
+.Dropdown li {
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color:#b1b1b1;
+}
+
+.Drop-li{
+  position: relative;
+  display:block;
+}
+
+.Dropdown li:hover{
+  color:#17b9a4 ;
+  cursor: grab;
+}
+
+.logo{
+  margin-right: 20px;
+height: 30px;  
+width: 220px;
+}
+.logo:hover{
+  cursor: grab;
+}
+
+.Dropdown-content{
+list-style: none;
+display: none;
+position: absolute;
+background-color: white;
+width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Dropdown-content li{
+  color: #ababab;
+  padding: 3px ;
+  text-decoration: none;
+  display: block; 
+}
+
+.Drop-li:hover .Dropdown-content{
+  display: flex;
+  flex-direction: column;
+}
+
+/*---------------------------------Description-Logo------------------------------------------*/
+
+.desc-log{
+display: block;
+margin: 55px auto 0px;
+}
+
+.description{
+  font-size: 30px;
+    color: #00bfa5;
+    display: block;
+    text-align: center;
+    margin:  20px 150px ;
+}
+/*----------------------------------------Card-------------------------------------------------*/
+.total-cards{
+  display: flex;
+  justify-content: space-around;
+  margin:  0px 150px ;
+}
+
+#cards-container{
+  border-radius: 10px;
+  height: 391.75px;
+  width:  477.5px;
+  overflow: hidden;
+}
+
+.card-title{
+  font-size: 26px;
+  margin: 0px 10px 0px 0px;
+  color: rgb(255, 255, 255);
+}
+
+.card-parag{
+  margin: 20px 0px 0px 50px;
+  font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.bgcb{
+  background-color: #00ccb1;
+}
+
+.bgcg{
+  background-color: #3d83df;
+}
+
+.cardimg1{
+  height: 250px;
+  margin: 0px 180px 20px;
+}
+
+.cardimg2{
+  height: 250px;
+  margin: 40px 180px;
+}
+.btn{
+  border-radius: 5px;
+  color: #333333;
+  margin: 15px 0px ;
+}
+
+/*---------------------------------Description-Logo------------------------------------------*/
+
+.first-main{
+  margin: 0px 150px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 1.75;
+  color: #747474;
+  font-size: 16px;
+}
+/*-----------global-company----------*/
+.glob-comp{
+  display: flex;
+  margin:  30px 150px ;
+}
+
+.glob-text{
+  color: #00b39b;
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.img-gc {
+  fill: #747474 ;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type:none;
+  cursor: grab;  
+  justify-items: center;
+  margin-top: 10px;
+
+}
+
+.img-gc li:hover{
+  fill: #00b39b;
+}
+
+
+/*-----------------------Healthcare---------------*/
+
+.healthcar{
+  background: #e5faf8; 
+  display: flex;
+  height: 600px;
+  overflow: hidden;
+  
+}
+
+.title-healthcare{
+    color: #00b39b;
+    font-size: 34px;
+    margin: 80px 0px 20px 160px ;
+}
+
+.prg-healthcare{
+  margin: 50px 160px 60px 160px;
+  color:#747474;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.img-logo-healthcare{
+    width: 450px;
+    height: 400px;
+    margin: 5px 0px 0px 30px;
+}
+
+#cards-healthcare{
+  background-color: #ffffff;
+  height: 230px;
+  width: 190px;
+  margin-right: 100px;
+  
+}
+
+.container-forcarte{
+  display: flex;
+  justify-content: space-between;
+  width:50%;
+  flex-wrap: wrap;
+}
+
+.carte-1{
+  padding : 5px;
+  margin-top:20px
+}
+
+.carte-2{
+padding : 5px;
+margin-top:50px
+}
+
+.prg-cards-healthcare{
+  color:#747474;
+  text-align: center;
+}
+
+.title-cards-healthcare{
+  color: #00b39b;
+  text-align: center;
+}
+
+.img-cards-healthcare{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+  margin-top: 15px;
+  }
+
+
+/*----------------------------------Description-Destination--------------------------------------------------------*/
+.dscpdest{
+text-align: center;
+}
+
+.title-Desc{
+  color:#00b39b;
+}
+
+.p-des{
+  color: #747474;
+  font-size: 14px;
+}
+
+
+
+/*-----------------------------------Destination--------------------------------------------------------*/
+
+
+
+  
+   .picture-destination{
+    margin: 0px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: grab;
+  }
+
+  .cards-destination{
+    margin: 30px 10px;
+    border: 0.5px solid rgba(219, 219, 219, 0.9);  
+    border-radius: 5px;
+  }
+  
+  .cards-destination:hover{
+    box-shadow: 5px 10px 8px 10px #ebebeb;
+  }
+
+  .bas-picture-destination{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    cursor: grab;
+    
+
+}
+
+.btn-destination{
+  border-radius: 5%;
+  background: #3d83df;
+  color:white;
+  border:0px;
+  cursor: grab;
+  font-size: 12px;
+  padding: 10px;
+  margin: 20px 5px;
+  width: 130px;
+} 
+
+.parag-destinat{
+  color: #747474;
+font-weight: bold;}
+
+/*------------------------------------------------Footer-------------------------------------------*/
+
+.footer{
+  border-top: 2px solid #eef2f2;
+  font-size: 12px;
+  color: #ababab;
+  text-align: center;}
+  
+.prg-1-footer{
+  line-height: 1.5;}
+
+.prg-1-footer a{
+    text-decoration: none;
+    color: #3d83df;}
+
+.prg-1-footer a:hover{
+text-decoration: underline;
+cursor: grab;
+
+}
+
+  
+    
